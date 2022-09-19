@@ -1,0 +1,451 @@
+defaultIcon: marker2-11
+defaultColor: &default_color '#5C6F84'
+defaultAdministrativeIcon: marker2-11
+defaultAdministrativeColor: *default_color
+defaultStreetIcon: residential-community-11
+defaultStreetColor: *default_color
+defaultAddressIcon: home-11
+defaultAddressColor: *default_color
+
+.colors:
+  transports: &transports_color '#123295'
+  services: &services_color '#6d6d76'
+  food: &food_color '#d76600'
+  culture: &culture_color '#e2001c'
+  shop: &shop_color '#a125be'
+  park: &park_color '#5d9836'
+  health: &health_color '#1777cb'
+  street_furniture: &street_furniture_color '#8C94A0'
+
+mappings:
+  - subclass: station
+    class: aerialway
+    iconName: aerialway-11
+    color: *transports_color
+  - subclass: station
+    class: railway
+    iconName: rail-11
+    color: *transports_color
+  - subclass: halt
+    iconName: rail-11
+    color: *transports_color
+  - subclass: tram_stop
+    class: railway
+    iconName: rail-light-11
+    color: *transports_color
+  - class: entrance
+    iconName: entrance-11
+    color: *transports_color
+  - subclass: bank
+    iconName: bank-11
+    color: *services_color
+  - subclass: atm
+    iconName: bank-11
+    color: *services_color
+  - subclass: car_rental
+    iconName: car-rental-11
+    color: *services_color
+  - subclass: car_repair
+    iconName: car-repair-11
+    color: *services_color
+  - subclass: confectionery
+    iconName: confectionery-11
+    color: *food_color
+  - subclass: ice_cream
+    iconName: ice-cream-11
+    color: *food_color
+  - subclass: beverages
+    iconName: teahouse-11
+    color: *food_color
+  - subclass: bbq
+    iconName: bbq-11
+    color: *food_color
+  - subclass: toilets
+    iconName: toilet-11
+    color: *default_color
+  - subclass: police
+    iconName: police-11
+    color: *services_color
+  - subclass: theatre
+    iconName: theatre-11
+    color: *culture_color
+  - subclass: arts_centre
+    iconName: theatre-11
+    color: *culture_color
+  - subclass: restaurant
+    iconName: restaurant-11
+    color: *food_color
+  - subclass: bar
+    iconName: bar-11
+    color: *food_color
+  - subclass: equestrian
+    iconName: horse-riding-11
+    color: *default_color
+  - subclass: bicycle_rental
+    iconName: bicycle-share-11
+    color: *services_color
+  - class: place_of_worship
+    subclass: christian
+    iconName: religious-christian-11
+    color: *services_color
+  - class: place_of_worship
+    subclass: muslim
+    iconName: religious-muslim-11
+    color: *services_color
+  - class: place_of_worship
+    subclass: jewish
+    iconName: religious-jewish-11
+    color: *services_color
+  - class: place_of_worship
+    subclass: buddhist
+    iconName: religious-buddhism-11
+    color: *services_color
+  - class: place_of_worship
+    iconName: place-of-worship-11
+    color: *services_color
+  - subclass: place_of_worship
+    iconName: place-of-worship-11
+    color: *services_color
+  - subclass: embassy
+    iconName: embassy-11
+    color: *services_color
+  - subclass: fire_station
+    iconName: fire-station-11
+    color: *services_color
+  - subclass: fitness_centre
+    iconName: fitness-11
+    color: *services_color
+  - subclass: bakery
+    iconName: bakery-11
+    color: *food_color
+  - subclass: mobile_phone
+    iconName: mobile-phone-11
+    color: *shop_color
+  - subclass: florist
+    iconName: florist-11
+    color: *shop_color
+  - subclass: cafe
+    iconName: cafe-11
+    color: *food_color
+  - subclass: hairdresser
+    iconName: hairdresser-11
+    color: *shop_color
+  - subclass: outdoor
+    iconName: mountain-11
+    color: *shop_color
+  - subclass: watches
+    iconName: watch-11
+    color: *shop_color
+  - subclass: butcher
+    iconName: slaughterhouse-11
+    color: *shop_color
+  - subclass: travel_agency
+    iconName: globe-11
+    color: *shop_color
+  - subclass: telephone
+    iconName: telephone-11
+    color: *street_furniture_color
+  - subclass: waste_basket
+    iconName: waste-basket-11
+    color: *street_furniture_color
+  - subclass: pharmacy
+    iconName: pharmacy-11
+    color: *health_color
+  - subclass: convenience
+    iconName: convenience-store-11
+    color: *shop_color
+  - subclass: clothes
+    iconName: clothing-store-11
+    color: *shop_color
+  - subclass: shoes
+    iconName: clothing-store-11
+    color: *shop_color
+  - subclass: boutique
+    iconName: clothing-store-11
+    color: *shop_color
+  - subclass: furniture
+    iconName: furniture-11
+    color: *shop_color
+  - subclass: lamps
+    iconName: furniture-11
+    color: *shop_color
+  - subclass: farm
+    iconName: convenience-store-11
+    color: *shop_color
+  - subclass: garden_centre
+    iconName: garden-center-11
+    color: *shop_color
+  - subclass: hardware
+    iconName: hardware-11
+    color: *shop_color
+  - subclass: doityourself
+    iconName: hardware-11
+    color: *shop_color
+  - subclass: jewelry
+    iconName: jewelry-store-11
+    color: *shop_color
+  - subclass: optician
+    iconName: optician-11
+    color: *shop_color
+  - subclass: interior_decoration
+    iconName: paint-11
+    color: *shop_color
+  - subclass: watches
+    iconName: paint-11
+    color: *shop_color
+  - subclass: fast_food
+    iconName: fast-food-11
+    color: *food_color
+  - subclass: bus_stop
+    iconName: bus-11
+    color: *transports_color
+  - subclass: subway
+    iconName: rail-metro-11
+    color: *transports_color
+  - subclass: ferry_terminal
+    iconName: ferry-11
+    color: *transports_color
+  - subclass: park
+    iconName: park-alt1-11
+    color: *park_color
+  - subclass: dog_park
+    iconName: dog-park-11
+    color: *park_color
+  - subclass: playground
+    iconName: playground-11
+    color: *default_color
+  - subclass: food_court
+    iconName: food-court-11
+    color: *default_color
+  - subclass: picnic_site
+    iconName: picnic-site-11
+    color: *park_color
+  - subclass: garden
+    iconName: garden-11
+    color: *park_color
+  - subclass: veterinary
+    iconName: veterinary-11
+    color: *health_color
+  - subclass: escape_game
+    iconName: escape-11
+    color: *culture_color
+  - subclass: zoo
+    iconName: zoo-11
+    color: *culture_color
+  - subclass: aquarium
+    iconName: aquarium-11
+    color: *culture_color
+  - subclass: gallery
+    iconName: art-gallery-11
+    color: *culture_color
+  - subclass: doctors
+    iconName: doctor-11
+    color: *health_color
+  - subclass: clinic
+    iconName: doctor-11
+    color: *health_color
+  - subclass: dentist
+    iconName: dentist-11
+    color: *health_color
+  - subclass: museum
+    iconName: museum-11
+    color: *culture_color
+  - subclass: public_building
+    iconName: building-11
+    color: *services_color
+  - subclass: artwork
+    iconName: artwork-11
+    color: *default_color
+  - subclass: viewpoint
+    iconName: viewpoint-11
+    color: *default_color
+  - subclass: theme_park
+    iconName: amusement-park-11
+    color: *culture_color
+  - subclass: cinema
+    iconName: cinema-11
+    color: *culture_color
+  - subclass: nightclub
+    iconName: music-11
+    color: *culture_color
+  - subclass: prison
+    iconName: prison-11
+    color: *services_color
+  - subclass: fuel
+    iconName: fuel-11
+    color: *default_color
+  - subclass: gift
+    iconName: gift-11
+    color: *shop_color
+  - subclass: mall
+    iconName: commercial-11
+    color: *shop_color
+  - subclass: marketplace
+    iconName: commercial-11
+    color: *shop_color
+  - subclass: video_games
+    iconName: gaming-11
+    color: *shop_color
+  - subclass: toys
+    iconName: gaming-11
+    color: *shop_color
+  - subclass: bicycle
+    iconName: bicycle-11
+    color: *shop_color
+  - subclass: motorcycle
+    iconName: scooter-11
+    color: *shop_color
+  - subclass: pet
+    iconName: pet-11
+    color: *shop_color
+  - subclass: seafood
+    iconName: seafood-11
+    color: *shop_color
+  - subclass: stationery
+    iconName: stationery-11
+    color: *shop_color
+  - class: shop
+    subclass: sports
+    iconName: baseball-11
+    color: *shop_color
+  - subclass: music
+    iconName: music-shop-11
+    color: *shop_color
+  - subclass: bed
+    iconName: bed-11
+    color: *shop_color
+  - subclass: electronics
+    iconName: electronics-11
+    color: *shop_color
+  - subclass: shelter
+    iconName: shelter-11
+    color: *default_color
+  - subclass: sally_port
+    iconName: ranger-station-11
+    color: *default_color
+  - subclass: basin
+    iconName: dam-11
+    color: *default_color
+  - subclass: reservoir
+    iconName: dam-11
+    color: *default_color
+  - subclass: monument
+    iconName: monument-11
+    color: *default_color
+  - subclass: airport
+    iconName: airport-11
+    color: *transports_color
+  - class: alcohol_shop
+    iconName: alcohol-shop-11
+    color: *shop_color
+  - class: art_gallery
+    iconName: art-gallery-11
+    color: *culture_color
+  - class: attraction
+    iconName: attraction-11
+    color: *culture_color
+  - class: barrier
+    iconName: barrier-11
+    color: *street_furniture_color
+  - class: beer
+    iconName: beer-11
+    color: *food_color
+  - class: bus
+    iconName: bus-11
+    color: *transports_color
+  - class: campsite
+    iconName: campsite-11
+    color: *park_color
+  - class: car
+    iconName: car-11
+    color: *shop_color
+  - class: castle
+    iconName: castle-11
+    color: *default_color
+  - class: cemetery
+    iconName: cemetery-11
+    color: *services_color
+  - class: college
+    iconName: college-11
+    color: *services_color
+  - class: golf
+    iconName: golf-11
+    color: *default_color
+  - class: grocery
+    iconName: grocery-11
+    color: *shop_color
+  - class: harbor
+    iconName: harbor-11
+    color: *services_color
+  - class: hospital
+    iconName: hospital-11
+    color: *health_color
+  - class: information
+    iconName: information-11
+    color: *street_furniture_color
+  - class: library
+    iconName: library-11
+    color: *services_color
+  - subclass: public_bookcase
+    iconName: library-11
+    color: *services_color
+  - class: laundry
+    iconName: laundry-11
+    color: *services_color
+  - class: lodging
+    iconName: lodging-11
+    color: *services_color
+  - class: post
+    subclass: post_office
+    iconName: post-11
+    color: *services_color
+  - class: post
+    iconName: post-box-11
+    color: *street_furniture_color
+  - class: recycling
+    iconName: recycling-11
+    color: *default_color
+  - class: school
+    iconName: school-11
+    color: *services_color
+  - class: shop
+    iconName: shop-11
+    color: *shop_color
+  - class: stadium
+    iconName: stadium-11
+    color: *default_color
+  - class: clothing_store
+    iconName: clothing-store-11
+    color: *shop_color
+  - class: town_hall
+    iconName: town-hall-11
+    color: *services_color
+  - class: bicycle_parking
+    iconName: parking-bike-11
+    color: *transports_color
+  - class: parking
+    iconName: parking-11
+    color: *transports_color
+
+  # Sports: class 'pitch' and 'sports_centre'
+  - subclass: athletics
+    iconName: soccer-11
+    color: *default_color
+  - subclass: soccer
+    iconName: soccer-11
+    color: *default_color
+  - subclass: swimming
+    iconName: swimming-11
+    color: *default_color
+  - subclass: basketball
+    iconName: basketball-11
+    color: *default_color
+  - class: sports_centre
+    iconName: basketball-11
+    color: *default_color
+  - class: pitch
+    iconName: soccer-11
+    color: *default_color
+  - subclass: winter_sports
+    iconName: skiing-11
+    color: *default_color

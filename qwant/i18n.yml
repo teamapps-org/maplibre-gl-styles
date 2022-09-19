@@ -1,0 +1,112 @@
+lang:
+  - &lang_double
+    - case
+    - - has
+      - name:{locale}
+    - - case
+      - - '=='
+        - - concat
+          - - get
+            - name:{locale}
+          - ''
+        - - concat
+          - - get
+            - name
+          - ''
+      - - get
+        - name:{locale}
+      - - format
+        - - get
+          - name:{locale}
+        - {}
+        - "\n"
+        - {}
+        - - get
+          - name
+        - 'font-scale': 0.8
+          'text-font': ['literal', ['Noto Sans Italic']]
+    - - case
+      - - has
+        - name:latin
+      - - case
+        - - '=='
+          - - concat
+            - - get
+              - name:latin
+            - ''
+          - - concat
+            - - get
+              - name
+            - ''
+        - - get
+          - name
+        - - format
+          - - get
+            - name:latin
+          - {}
+          - "\n"
+          - {}
+          - - get
+            - name
+          - 'font-scale': 0.8
+            'text-font': ['literal', ['Noto Sans Italic']]
+      - - get
+        - name
+  - &lang_locale
+    - case
+    - - has
+      - name:{locale}
+    - - get
+      - name:{locale}
+    - - get
+      - name
+
+languageFallbacks:
+  - id: waterway-name
+    lang: *lang_locale
+  - id: water-name-lakeline
+    lang: *lang_locale
+  - id: water-name-ocean
+    lang: *lang_locale
+  - id: water-name-other
+    lang: *lang_locale
+  - id: poi-level-street-furniture
+    lang: *lang_locale
+  - id: poi-level-3
+    lang: *lang_locale
+  - id: poi-level-2
+    lang: *lang_locale
+  - id: poi-level-1
+    lang: *lang_locale
+  - id: poi-level-public-transports-2
+    lang: *lang_locale
+  - id: poi-level-public-transports-1
+    lang: *lang_locale
+  - id: poi-railway
+    lang: *lang_locale
+  - id: highway-name-path
+    lang: *lang_locale
+  - id: highway-name-minor
+    lang: *lang_locale
+  - id: highway-name-major
+    lang: *lang_locale
+  - id: highway-name-path
+    lang: *lang_locale
+  - id: airport-label-major
+    lang: *lang_locale
+  - id: park-label
+    lang: *lang_locale
+  - id: place-other
+    lang: '{name}'
+  - id: place-village
+    lang: *lang_double
+  - id: place-town
+    lang: *lang_double
+  - id: place-city
+    lang: *lang_double
+  - id: place-city-capital
+    lang: *lang_double
+  - id: place-country
+    lang: *lang_locale
+  - id: place-continent
+    lang: *lang_locale

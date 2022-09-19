@@ -1,0 +1,107 @@
+{
+  "options": {
+    "paths": {
+      "root": "/app/node_modules/tileserver-gl-styles",
+      "fonts": "/data/fonts",
+      "styles": "styles",
+      "mbtiles": "/data"
+    }
+  },
+  "styles": {
+    "maptiler-basic": {
+      "style": "/data/styles/maptiler-basic/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "osm-bright": {
+      "style": "/data/styles/osm-bright/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "dark-matter": {
+      "style": "/data/styles/dark-matter/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "fiord": {
+      "style": "/data/styles/fiord/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "positron": {
+      "style": "/data/styles/positron/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "osm-liberty": {
+      "style": "/data/styles/osm-liberty/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "osm-liberty-intl": {
+      "style": "/data/styles/osm-liberty/style-local-intl.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "osm_liberty_dark_custom": {
+      "style": "/data/styles/osm-liberty/osm_liberty_dark_custom.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "osm_liberty_dark_custom_intl": {
+      "style": "/data/styles/osm-liberty/osm_liberty_dark_custom-intl.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "dark_custom": {
+      "style": "/data/styles/dark/dark_custom-3d-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "dark": {
+      "style": "/data/styles/dark/style.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "qwant": {
+      "style": "/data/styles/qwant/style-omt-selfhost.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "2022-09-03-planet.mbtiles"
+    },
+    "natural_earth_2": {
+      "mbtiles": "natural_earth_2.raster.mbtiles"
+    },
+    "natural_earth_2_shaded_relief": {
+      "mbtiles": "natural_earth_2_shaded_relief.raster.mbtiles"
+    },
+    "natural_earth_2_shaded_relief_png": {
+      "mbtiles": "natural_earth_2_shaded_relief.raster.png.mbtiles"
+    },
+    "natural_earth_shaded_relief": {
+      "mbtiles": "natural_earth_shaded_relief.raster.mbtiles"
+    },
+    "natural_earth_gray_earth_hypso_shaded_relief": {
+      "mbtiles": "natural_earth_gray_earth_hypso_shaded_relief.raster.mbtiles"
+    },
+    "natural_earth": {
+      "mbtiles": "natural_earth.vector.mbtiles"
+    }
+  }
+}
