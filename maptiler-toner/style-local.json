@@ -1297,13 +1297,13 @@
             [
               12,
               [
-                "Nunito Regular"
+                "Noto Sans Regular"
               ]
             ],
             [
               16,
               [
-                "Nunito Semi Bold"
+                "Noto Sans Bold"
               ]
             ]
           ]
@@ -1357,13 +1357,13 @@
             [
               4,
               [
-                "Nunito Regular"
+                "Noto Sans Regular"
               ]
             ],
             [
               7,
               [
-                "Nunito Bold"
+                "Noto Sans Bold"
               ]
             ]
           ]
@@ -1430,13 +1430,13 @@
             [
               8,
               [
-                "Nunito Regular"
+                "Noto Sans Regular"
               ]
             ],
             [
               14,
               [
-                "Nunito Bold"
+                "Noto Sans Bold"
               ]
             ]
           ]
@@ -1485,7 +1485,7 @@
       "layout": {
         "text-field": "{name:latin} {name:nonlatin}",
         "text-font": [
-          "Nunito Semi Bold"
+          "Noto Sans Bold"
         ],
         "text-max-width": 10,
         "text-size": 13,
@@ -1518,13 +1518,13 @@
             [
               3,
               [
-                "Nunito Regular"
+                "Noto Sans Regular"
               ]
             ],
             [
               4,
               [
-                "Nunito Bold"
+                "Noto Sans Bold"
               ]
             ]
           ]
@@ -1572,7 +1572,7 @@
       "layout": {
         "text-field": "{name:latin}",
         "text-font": [
-          "Nunito Extra Bold"
+          "Noto Sans Bold"
         ],
         "text-line-height": 1.1,
         "text-max-width": 10,

@@ -39,7 +39,7 @@
       }
     },
     "toner": {
-      "style": "/data/styles/toner/style-local.json",
+      "style": "/data/styles/maptiler-toner/style-local.json",
       "tilejson": {
         "format": "webp"
       }
