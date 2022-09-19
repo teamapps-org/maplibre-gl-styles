@@ -1,4 +1,4 @@
-# openmaptiles-styles
+# maplibre-gl-styles
 
 Styles for your selfhosted maps using tileserver-gl and Maplibre GL
 
