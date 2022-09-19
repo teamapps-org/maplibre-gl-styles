@@ -10,7 +10,6 @@ Styles from [Openmaptiles](https://openmaptiles.org/styles/) and other free sour
 * Get the mbtiles files
 * Update tileserver `config.json` as in [example-tileserver-config.json](example-tileserver-config.json)
 
-
 ## Included Styles
 
 ### Maptiler Basic `maptiler-basic`
@@ -40,8 +39,6 @@ Customized Variants:
 
 ### MapTiler 3D
 
-TODO
-
 * https://github.com/openmaptiles/maptiler-3d-gl-style
 * [BSD 3-Clause License](https://github.com/openmaptiles/maptiler-3d-gl-style/blob/master/LICENSE.md)
 
@@ -50,7 +47,7 @@ TODO
 cannot be fully self hosted without Maptiler License, hillshade tiles are not available for free.
 
 * https://github.com/openmaptiles/maptiler-terrain-gl-style
-*
+* [BSD 3-Clause License](https://github.com/openmaptiles/maptiler-terrain-gl-style/blob/master/LICENSE.md>
 
 ### Fiord Color
 
@@ -58,8 +55,6 @@ cannot be fully self hosted without Maptiler License, hillshade tiles are not av
 * Based on Positron
 
 ### Toner
-
-TODO
 
 * https://github.com/openmaptiles/maptiler-toner-gl-style
 * [BSD 3-Clause License](https://github.com/openmaptiles/maptiler-toner-gl-style/blob/master/LICENSE.md)

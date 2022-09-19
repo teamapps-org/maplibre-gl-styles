@@ -38,6 +38,18 @@
         "format": "webp"
       }
     },
+    "toner": {
+      "style": "/data/styles/toner/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
+    "maptiler-3d": {
+      "style": "/data/styles/maptiler-3d/style-local.json",
+      "tilejson": {
+        "format": "webp"
+      }
+    },
     "osm-liberty": {
       "style": "/data/styles/osm-liberty/style-local.json",
       "tilejson": {
