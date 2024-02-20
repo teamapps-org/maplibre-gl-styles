@@ -91,7 +91,9 @@ https://klokantech.github.io/naturalearthtiles/
 
 https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_2_shaded_relief.raster.mbtiles
 
-#### natural earth png version mbtiles
+#### natural earth png version mbtiles (obsolete)
+
+no longer needed with current versions of [maplibre/tileserver](https://github.com/maptiler/tileserver-gl/releases/tag/v4.10.0)
 
 package png from sources in mbtiles format
 

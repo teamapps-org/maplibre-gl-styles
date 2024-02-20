@@ -103,9 +103,6 @@
     "natural_earth_2_shaded_relief": {
       "mbtiles": "natural_earth_2_shaded_relief.raster.mbtiles"
     },
-    "natural_earth_2_shaded_relief_png": {
-      "mbtiles": "natural_earth_2_shaded_relief.raster.png.mbtiles"
-    },
     "natural_earth_shaded_relief": {
       "mbtiles": "natural_earth_shaded_relief.raster.mbtiles"
     },

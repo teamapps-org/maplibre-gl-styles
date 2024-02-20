@@ -15,13 +15,7 @@
       "maxzoom": 6,
       "tileSize": 256,
       "type": "raster",
-      "url": "mbtiles://{natural_earth_2_shaded_relief_png}"
-    },
-    "natural_earth_2_shaded_relief_png": {
-      "maxzoom": 6,
-      "tileSize": 256,
-      "type": "raster",
-      "url": "mbtiles://{natural_earth_2_shaded_relief_png}"
+      "url": "mbtiles://{natural_earth_2_shaded_relief}"
     }
   },
   "sprite": "{styleJsonFolder}/sprites/osm-liberty",
@@ -35,7 +29,7 @@
     {
       "id": "natural_earth",
       "type": "raster",
-      "source": "natural_earth_2_shaded_relief_png",
+      "source": "natural_earth_2_shaded_relief",
       "maxzoom": 6,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.1]]}}
     },
